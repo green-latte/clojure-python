@@ -31,10 +31,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        'Development Status :: 0 - Pre-Alpha',
+        'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
+        'Environment :: Console',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'Operating System :: Unix',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
