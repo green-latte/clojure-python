@@ -4,7 +4,7 @@ from distutils.sysconfig import get_python_lib
 from setuptools import find_packages, setup, Command
 
 
-# Dynamically calculate the version based on django.VERSION.
+# Dynamically calculate the version based on VERSION.
 version = __import__('oneway').get_version()
 
 
