@@ -1,6 +1,8 @@
 Oneway
 ======
 
+[![Travis](https://travis-ci.org/green-latte/oneway.svg?branch=master)](https://travis-ci.org/green-latte/oneway)
+
 Support functional programming in python.
 
 ##Version
