@@ -1,12 +1,17 @@
 language: python
 python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-# command to install dependencies
-# install: "pip install -r requirements.txt"
-# command to run tests
+  - '2.6'
+  - '2.7'
+  - '3.2'
+  - '3.3'
+  - '3.4'
+  - '3.5'
 script: python setup.py test
+deploy:
+  provider: pypi
+  user: green-latte
+  password:
+    secure: 24QsSC+Q6E1CgTnUnhZ+zGOBCzcPiKS4VLnccnS8dhWRx1p1RkPJ+gcNmCuABTjk/Ee9NCrTv8cgKXyjnjYTI9RlBLoTmOJugjTH4sUEXnr3KmKTyVCIfSjBB+8LkDMgU+RWPlYx3GoJY3rO3F3Clk+o9FvxSSO/R22CyQp8RQz5ILilzTZrDIGsXPBsm6GVFaeCznlznEaiKA7+FN0oEvrQjSrCc8vcsOAv9+iBm54Om8FtFoNAqgeVrSqlG7ZYEX+bMsLtuc3W9XQiKFdbxqM2QdUtFnlNMcblwLoT4hHzF4gM3jbCns4xxG9H/i+ILC6Q29icg5BW1BFGRP6MyjTW7+ljtAJYFo5RfugAPsLI6EK8TEswcjJvd60OsIaYXABQ+gYXIp5xxnGhvBWqbXCjcoVq2Jmj3oxrdDIgASBekGz+V1DLgRHlikf1E/rDpoE3YcNQesHYrbSgvIUos38iiDiiVkkGZkhgxzyZzqcIdT7CleITldkcInOT46rOgX2rDxkaJj3389MPNoBQg0pMO7hAcWtLu36ZIEWmkUWgljx78cOx6/GJs15ddcJ8ilWHzWayH95/GFjqRU2K3rnol+GHjcIagX9cgZt0q9TsjcVyZF3K6ahIrZ3xQREZTL2K4GGED3I3g0AjEWVetfKMBnNNx5E1v69JtYLC/S4=
+  on:
+    tags: true
+    branch: master
