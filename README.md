@@ -15,5 +15,5 @@ Support functional programming in python.
 https://github.com/green-latte/oneway
 + Documentation  
 http://oneway.readthedocs.org/en/latest/
-+ PyPI
++ PyPI  
 https://pypi.python.org/pypi/oneway
