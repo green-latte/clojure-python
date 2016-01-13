@@ -1,7 +1,7 @@
 Oneway
 ======
 
-![logo](https://cdn.rawgit.com/green-latte/oneway/master/images/route.svg)
+![logo](https://raw.githubusercontent.com/green-latte/oneway/master/logo.png)
 
 [![Travis](https://travis-ci.org/green-latte/oneway.svg?branch=master)](https://travis-ci.org/green-latte/oneway)
 [![Coverage Status](https://coveralls.io/repos/green-latte/oneway/badge.svg?branch=master&service=github)](https://coveralls.io/github/green-latte/oneway?branch=master)
