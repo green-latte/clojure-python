@@ -10,4 +10,4 @@ Support functional programming in python.
 + Homepage  
 https://github.com/green-latte/oneway
 + Documentation  
-http://readthedocs.org/docs/oneway/
+http://oneway.readthedocs.org/en/latest/
