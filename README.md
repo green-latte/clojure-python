@@ -1,6 +1,3 @@
-Oneway
-======
-
 ![logo](https://raw.githubusercontent.com/green-latte/oneway/master/logo.png)
 
 [![Travis](https://travis-ci.org/green-latte/oneway.svg?branch=master)](https://travis-ci.org/green-latte/oneway)
